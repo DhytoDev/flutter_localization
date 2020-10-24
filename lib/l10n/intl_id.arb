@@ -1,0 +1,16 @@
+{
+    "@@locale": "id",
+    "welcome": "Selamat Datang, {firstName} {lastName}",
+    "@welcome": {
+        "placeholders": {
+            "firstName": {},
+            "lastName": {}
+        }
+    },
+    "counterText": "{count, plural, zero{Kamu belum menekan tombol} other{Kamu telah menekan tombol sebanyak {count} kali}}",
+    "@counterText": {
+        "placeholders": {
+            "count": {}
+        }
+    }
+}

@@ -26,11 +26,8 @@ dependencies:
   # Internationalization support.
   flutter_localizations:
     sdk: flutter
-  intl: 0.16.1
+  # intl: 0.16.1
   # the rest of your dependencies
-flutter_intl:
-  enabled: true
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -72,3 +69,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+flutter_intl:
+  enabled: true
+  main_locale: en

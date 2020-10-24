@@ -35,7 +35,28 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `Welcome, {firstName} {lastName}`
+  String welcome(Object firstName, Object lastName) {
+    return Intl.message(
+      'Welcome, $firstName $lastName',
+      name: 'welcome',
+      desc: '',
+      args: [firstName, lastName],
+    );
+  }
 
+  /// `{count, plural, zero{You haven't pushed the button} one{You have pushed the button 1 time} other {You have pushed the button {count} times}}`
+  String counterText(num count) {
+    return Intl.plural(
+      count,
+      zero: 'You haven\'t pushed the button',
+      one: 'You have pushed the button 1 time',
+      other: 'You have pushed the button $count times',
+      name: 'counterText',
+      desc: '',
+      args: [count],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
@@ -44,6 +65,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale.fromSubtags(languageCode: 'en'),
+      Locale.fromSubtags(languageCode: 'id'),
     ];
   }
 

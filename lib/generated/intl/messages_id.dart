@@ -1,5 +1,5 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
-// This is a library that provides messages for a en locale. All the
+// This is a library that provides messages for a id locale. All the
 // messages from the main program should be duplicated here with the same
 // function name.
 
@@ -17,11 +17,11 @@ final messages = new MessageLookup();
 typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 
 class MessageLookup extends MessageLookupByLibrary {
-  String get localeName => 'en';
+  String get localeName => 'id';
 
-  static m0(count) => "${Intl.plural(count, zero: 'You haven\'t pushed the button', one: 'You have pushed the button 1 time', other: 'You have pushed the button ${count} times')}";
+  static m0(count) => "${Intl.plural(count, zero: 'Kamu belum menekan tombol', other: 'Kamu telah menekan tombol sebanyak ${count} kali')}";
 
-  static m1(firstName, lastName) => "Welcome, ${firstName} ${lastName}";
+  static m1(firstName, lastName) => "Selamat Datang, ${firstName} ${lastName}";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
