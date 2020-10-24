@@ -16,7 +16,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## References
-- [](https://medium.com/flutter-community/new-localization-flutter-1-22-i18n-and-l10n-support-774d6542ee6a)
-- [](https://docs.google.com/document/d/10e0saTfAv32OZLRmONy866vnaw0I2jwL8zukykpgWBc)
-- [](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl)
-- [](https://github.com/localizely/flutter-intl-plugin-sample-app)
+- [New Localization (Flutter 1.22): i18n and l10n support](https://medium.com/flutter-community/new-localization-flutter-1-22-i18n-and-l10n-support-774d6542ee6a)
+- [Flutter Internationalization User Guide](https://docs.google.com/document/d/10e0saTfAv32OZLRmONy866vnaw0I2jwL8zukykpgWBc)
+- [Flutter Intl Plugin](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl)
+- [Flutter Intl Plugin Sample App](https://github.com/localizely/flutter-intl-plugin-sample-app)
