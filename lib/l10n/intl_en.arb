@@ -3,14 +3,24 @@
     "welcome": "Welcome, {firstName} {lastName}",
     "@welcome": {
         "placeholders": {
-            "firstName": {},
-            "lastName": {}
+            "firstName": {
+                "type": "String"
+            },
+            "lastName": {
+                "type": "String"
+            }
         }
     },
     "counterText": "{count, plural, zero{You haven't pushed the button} one{You have pushed the button 1 time} other {You have pushed the button {count} times}}",
     "@counterText": {
         "placeholders": {
             "count": {}
+        }
+    },
+    "currentDate": "Current date : {date}",
+    "@currentDate": {
+        "placeholders": {
+            "date": {}
         }
     }
 }

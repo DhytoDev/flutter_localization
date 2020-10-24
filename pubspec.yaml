@@ -23,18 +23,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Internationalization support.
   flutter_localizations:
     sdk: flutter
-  # intl: 0.16.1
-  # the rest of your dependencies
+  # intl: ^0.16.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
 # The following section is specific to Flutter.
 flutter:
   # The following line ensures that the Material Icons font is

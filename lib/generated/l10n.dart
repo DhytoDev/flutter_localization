@@ -57,6 +57,16 @@ class S {
       args: [count],
     );
   }
+
+  /// `Current date : {date}`
+  String currentDate(Object date) {
+    return Intl.message(
+      'Current date : $date',
+      name: 'currentDate',
+      desc: '',
+      args: [date],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

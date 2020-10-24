@@ -21,11 +21,14 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m0(count) => "${Intl.plural(count, zero: 'You haven\'t pushed the button', one: 'You have pushed the button 1 time', other: 'You have pushed the button ${count} times')}";
 
-  static m1(firstName, lastName) => "Welcome, ${firstName} ${lastName}";
+  static m1(date) => "Current date : ${date}";
+
+  static m2(firstName, lastName) => "Welcome, ${firstName} ${lastName}";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
     "counterText" : m0,
-    "welcome" : m1
+    "currentDate" : m1,
+    "welcome" : m2
   };
 }
