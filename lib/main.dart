@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'generated/l10n.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -58,9 +59,18 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
+              S
+                  .of(context)
+                  .currentDate(DateFormat.yMMMMEEEEd().format(DateTime.now())),
+              style: Theme.of(context).textTheme.headline6,
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 16),
+            Text(
               S.of(context).welcome("Fordyta", "Abubakar"),
               style: Theme.of(context).textTheme.subtitle1,
             ),
+            SizedBox(height: 16),
             Text(S.of(context).counterText(_counter)),
             Text(
               '$_counter',
